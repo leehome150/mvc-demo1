@@ -1,0 +1,16 @@
+#app3 {
+  position: relative;
+}
+#app3 .square {
+  border: 1px solid red;
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  width: 15vw;
+  height: 15vw;
+
+  transition: 1s linear; /*添加过渡*/
+}
+#app3 .square.active {
+  transform: translateX(15vw);
+}
